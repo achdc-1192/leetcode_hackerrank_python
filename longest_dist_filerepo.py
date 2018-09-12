@@ -1,5 +1,6 @@
 import sys
-import os
+
+
 l = []
 while True:
     a = sys.stdin.readline()
@@ -13,7 +14,7 @@ print l
 
 s = 0
 spaces = 0
-spaces_array []
+spaces_array = []
 for i in reversed(range(len(l))):
     line = l[i]
     #print line

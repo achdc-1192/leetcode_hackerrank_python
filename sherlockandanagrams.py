@@ -1,11 +1,11 @@
 n=input()
-for _ in xrange(n):
-    s=list(raw_input())
+for _ in range(n):
+    s=list(input())
     l=len(s)
     count=0
-    for i in xrange(1,l):
+    for i in range(1,l):
         dic={}
-        for j in xrange(l-i+1):
+        for j in range(l-i+1):
             t=str(sorted(s[j:j+i]))
             k=dic.setdefault(t,0)
             #print k,t+" k and t \n"

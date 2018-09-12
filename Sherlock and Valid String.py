@@ -1,5 +1,4 @@
-
-s = raw_input()
+s = input()
 
 d={}
 #print x

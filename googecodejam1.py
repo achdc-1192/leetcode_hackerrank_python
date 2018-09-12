@@ -1,6 +1,6 @@
-testcases = int(raw_input())
+testcases = int(input())
 for i in range(testcases):
-    n = int(raw_input())
+    n = int(input())
     c=0#just count type to increase multiplication with number
     if n==0:
         #print "Insomnia"
