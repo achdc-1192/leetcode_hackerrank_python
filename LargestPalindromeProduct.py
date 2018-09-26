@@ -14,12 +14,11 @@ def largestPalindrome(n):
             #print("array of j and i values are ", arr[j],arr[i])
             product = arr[j]*arr[i]
             print("product is ", product)
-            if palindrome(product):
-                if product > answer:
-                    print("I am in the if condition")
-                    print("product is %d and answer is %d " %(product,answer))
-                    answer = product
-                    print("answer is ",answer)
+            if palindrome(product) and product > answer:
+                print("I am in the if condition")
+                print("product is %d and answer is %d " %(product,answer))
+                answer = product
+                print("answer is ",answer)
     print("the next coming number is the answer")
     return answer%1337
 
@@ -42,4 +41,4 @@ def palindrome(n):
         return True
 
 
-print(largestPalindrome(2))
+print(largestPalindrome(1))
